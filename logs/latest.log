@@ -1,93 +1,878 @@
-[01Jun2026 00:54:07.477] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[01Jun2026 00:54:07.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[01Jun2026 00:54:07.738] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Jun2026 00:54:07.749] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[01Jun2026 00:54:07.772] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[01Jun2026 00:54:07.798] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[01Jun2026 00:54:07.843] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/mods/Connector-1.0.0-beta.48+1.20.1.jar%23129%23132!/ Service=ModLauncher Env=SERVER
-[01Jun2026 00:54:08.047] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at D:\Minecraft\Forge Server\Forge 1.20.1 Server\mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[01Jun2026 00:54:08.112] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[01Jun2026 00:54:08.116] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[01Jun2026 00:54:08.119] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[01Jun2026 00:54:08.122] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[01Jun2026 00:54:08.283] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[01Jun2026 00:54:08.520] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
-[01Jun2026 00:54:09.249] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[01Jun2026 00:54:09.784] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Jun2026 00:54:09.845] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[01Jun2026 00:54:09.989] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Jun2026 00:54:10.024] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Jun2026 00:54:10.034] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Jun2026 00:54:10.565] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[01Jun2026 00:54:14.857] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[01Jun2026 00:54:14.878] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[01Jun2026 00:54:14.910] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[01Jun2026 00:54:14.914] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
-[01Jun2026 00:54:14.914] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[01Jun2026 00:54:14.917] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
-[01Jun2026 00:54:14.921] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
-[01Jun2026 00:54:14.933] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[01Jun2026 00:54:14.934] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[01Jun2026 00:54:14.986] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
-[01Jun2026 00:54:15.009] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
-[01Jun2026 00:54:15.018] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
-[01Jun2026 00:54:15.024] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
-[01Jun2026 00:54:15.090] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
-[01Jun2026 00:54:15.094] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
-[01Jun2026 00:54:15.097] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
-[01Jun2026 00:54:15.302] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[01Jun2026 00:54:15.302] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[01Jun2026 00:54:15.951] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
-[01Jun2026 00:54:15.951] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
-[01Jun2026 00:54:15.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[01Jun2026 00:54:15.995] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[01Jun2026 00:54:15.996] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[01Jun2026 00:54:15.997] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[01Jun2026 00:54:15.997] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[01Jun2026 00:54:16.036] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[01Jun2026 00:54:16.036] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
-[01Jun2026 00:54:16.039] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
-[01Jun2026 00:54:16.039] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
-[01Jun2026 00:54:16.039] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[01Jun2026 00:54:16.894] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Jun2026 00:54:17.383] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
-[01Jun2026 00:54:17.383] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
-[01Jun2026 00:54:18.890] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[01Jun2026 00:54:18.951] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1622 advancements
-[01Jun2026 00:54:19.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Jun2026 00:54:19.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Jun2026 00:54:19.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Jun2026 00:54:19.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jun2026 00:54:19.848] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Jun2026 00:54:19.861] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[01Jun2026 00:54:20.022] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Jun2026 00:54:20.022] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Jun2026 00:54:20.022] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Jun2026 00:54:20.023] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Jun2026 00:54:20.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Jun2026 00:54:21.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jun2026 00:54:23.077] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2026 00:54:23.096] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2026 00:54:23.110] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2026 00:54:23.124] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2026 00:54:23.135] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jun2026 00:54:23.548] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[01Jun2026 00:54:23.794] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2746 ms
-[01Jun2026 00:54:23.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.752s)! For help, type "help"
-[01Jun2026 00:54:23.814] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Jun2026 00:54:23.841] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
-[01Jun2026 00:54:23.842] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
-[01Jun2026 00:54:27.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
-[01Jun2026 00:54:27.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Jun2026 00:54:28.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
-[01Jun2026 00:55:38.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[01Jun2026 00:55:38.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jun2026 00:55:38.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jun2026 00:55:38.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jun2026 00:55:38.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Jun2026 00:55:39.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Jun2026 00:55:39.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Jun2026 00:55:39.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Jun2026 00:55:39.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jun2026 00:55:39.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jun2026 00:55:39.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jun2026 01:07:39.081] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[01Jun2026 01:07:39.088] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[01Jun2026 01:07:39.379] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Jun2026 01:07:39.387] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[01Jun2026 01:07:39.407] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[01Jun2026 01:07:39.426] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[01Jun2026 01:07:39.474] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/mods/Connector-1.0.0-beta.48+1.20.1.jar%23129%23132!/ Service=ModLauncher Env=SERVER
+[01Jun2026 01:07:39.643] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at D:\Minecraft\Forge Server\Forge 1.20.1 Server\mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[01Jun2026 01:07:39.719] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[01Jun2026 01:07:39.723] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[01Jun2026 01:07:39.726] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[01Jun2026 01:07:39.730] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[01Jun2026 01:07:39.864] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[01Jun2026 01:07:40.086] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[01Jun2026 01:07:40.783] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[01Jun2026 01:07:41.281] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jun2026 01:07:41.339] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jun2026 01:07:41.470] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jun2026 01:07:41.509] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jun2026 01:07:41.519] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jun2026 01:07:42.184] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[01Jun2026 01:07:46.714] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[01Jun2026 01:07:46.747] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Jun2026 01:07:46.779] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Jun2026 01:07:46.781] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[01Jun2026 01:07:46.781] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[01Jun2026 01:07:46.784] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[01Jun2026 01:07:46.786] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[01Jun2026 01:07:46.801] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[01Jun2026 01:07:46.802] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[01Jun2026 01:07:46.846] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[01Jun2026 01:07:46.981] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[01Jun2026 01:07:46.996] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[01Jun2026 01:07:47.004] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[01Jun2026 01:07:47.010] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[01Jun2026 01:07:47.013] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[01Jun2026 01:07:47.022] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[01Jun2026 01:07:47.297] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[01Jun2026 01:07:47.297] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[01Jun2026 01:07:47.971] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[01Jun2026 01:07:47.971] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[01Jun2026 01:07:47.984] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[01Jun2026 01:07:48.021] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[01Jun2026 01:07:48.021] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[01Jun2026 01:07:48.022] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[01Jun2026 01:07:48.023] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[01Jun2026 01:07:48.061] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01Jun2026 01:07:48.061] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[01Jun2026 01:07:48.065] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[01Jun2026 01:07:48.065] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[01Jun2026 01:07:48.065] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01Jun2026 01:07:49.012] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jun2026 01:07:49.533] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
+[01Jun2026 01:07:49.533] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
+[01Jun2026 01:07:51.348] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[01Jun2026 01:07:51.447] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1622 advancements
+[01Jun2026 01:07:52.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Jun2026 01:07:52.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jun2026 01:07:52.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jun2026 01:07:52.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jun2026 01:07:52.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jun2026 01:07:52.537] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[01Jun2026 01:07:52.670] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jun2026 01:07:52.670] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jun2026 01:07:52.670] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jun2026 01:07:52.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jun2026 01:07:52.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jun2026 01:07:53.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jun2026 01:07:56.103] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 01:07:56.104] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 01:07:56.104] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 01:07:56.105] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 01:07:56.105] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2026 01:07:56.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[01Jun2026 01:07:56.679] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2920 ms
+[01Jun2026 01:07:56.679] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.992s)! For help, type "help"
+[01Jun2026 01:07:56.699] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jun2026 01:07:56.725] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[01Jun2026 01:07:56.726] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[01Jun2026 01:07:59.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[01Jun2026 01:07:59.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jun2026 01:08:07.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[01Jun2026 01:08:49.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MamaMoRed[/26.85.167.196:1307] logged in with entity id 320 at (-6.530047195663745, 70.0, -0.5783825094524616)
+[01Jun2026 01:08:49.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed joined the game
+[01Jun2026 01:10:19.444] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@47ecd430[id=<null>,name=PingEm,properties={},legacy=false] (/26.241.72.119:57602) lost connection: Disconnected
+[01Jun2026 01:10:54.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6 chunks (0.14%), ETA: 0:06:06, Rate: 11.5 cps, Current: -28, -28
+[01Jun2026 01:10:56.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13 chunks (0.31%), ETA: 0:10:05, Rate: 7.0 cps, Current: -28, -29
+[01Jun2026 01:10:57.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 24 chunks (0.57%), ETA: 0:08:51, Rate: 7.9 cps, Current: -29, -26
+[01Jun2026 01:10:58.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 36 chunks (0.85%), ETA: 0:07:53, Rate: 8.8 cps, Current: -24, -29
+[01Jun2026 01:10:59.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 44 chunks (1.04%), ETA: 0:08:01, Rate: 8.7 cps, Current: -21, -30
+[01Jun2026 01:11:00.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 56 chunks (1.33%), ETA: 0:07:39, Rate: 9.1 cps, Current: -19, -28
+[01Jun2026 01:11:01.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 80 chunks (1.89%), ETA: 0:06:25, Rate: 10.8 cps, Current: -18, -26
+[01Jun2026 01:11:03.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 163 chunks (3.86%), ETA: 0:03:40, Rate: 18.5 cps, Current: -32, -31
+[01Jun2026 01:11:04.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 201 chunks (4.76%), ETA: 0:03:25, Rate: 19.6 cps, Current: -29, -24
+[01Jun2026 01:11:05.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 272 chunks (6.44%), ETA: 0:02:44, Rate: 24.1 cps, Current: -30, -13
+[01Jun2026 01:11:06.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 298 chunks (7.05%), ETA: 0:02:43, Rate: 24.1 cps, Current: -29, -1
+[01Jun2026 01:11:08.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 759 chunks (17.96%), ETA: 0:01:03, Rate: 54.7 cps, Current: -3, -21
+[01Jun2026 01:11:09.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 823 chunks (19.48%), ETA: 0:01:01, Rate: 55.3 cps, Current: -2, -23
+[01Jun2026 01:11:11.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 856 chunks (20.26%), ETA: 0:01:08, Rate: 49.2 cps, Current: -32, -20
+[01Jun2026 01:11:13.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 878 chunks (20.78%), ETA: 0:01:11, Rate: 46.9 cps, Current: -16, -27
+[01Jun2026 01:11:14.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 899 chunks (21.28%), ETA: 0:01:12, Rate: 45.6 cps, Current: -14, -28
+[01Jun2026 01:11:15.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 926 chunks (21.92%), ETA: 0:01:13, Rate: 44.6 cps, Current: -9, -27
+[01Jun2026 01:11:16.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 944 chunks (22.34%), ETA: 0:01:15, Rate: 43.2 cps, Current: -9, -31
+[01Jun2026 01:11:17.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 970 chunks (22.96%), ETA: 0:01:16, Rate: 42.4 cps, Current: -5, -28
+[01Jun2026 01:11:18.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 988 chunks (23.38%), ETA: 0:01:19, Rate: 40.8 cps, Current: -1, -29
+[01Jun2026 01:11:19.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1006 chunks (23.81%), ETA: 0:01:20, Rate: 39.9 cps, Current: 1, -26
+[01Jun2026 01:11:20.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1022 chunks (24.19%), ETA: 0:01:23, Rate: 38.4 cps, Current: 3, -27
+[01Jun2026 01:11:22.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1035 chunks (24.50%), ETA: 0:01:26, Rate: 37.0 cps, Current: 3, -29
+[01Jun2026 01:11:23.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1055 chunks (24.97%), ETA: 0:01:28, Rate: 36.0 cps, Current: 8, -29
+[01Jun2026 01:11:24.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1067 chunks (25.25%), ETA: 0:01:27, Rate: 36.2 cps, Current: 11, -30
+[01Jun2026 01:11:26.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1078 chunks (25.51%), ETA: 0:01:27, Rate: 35.9 cps, Current: 12, -29
+[01Jun2026 01:11:27.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1104 chunks (26.13%), ETA: 0:01:24, Rate: 36.9 cps, Current: -30, -1
+[01Jun2026 01:11:28.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1146 chunks (27.12%), ETA: 0:01:20, Rate: 38.0 cps, Current: 14, -18
+[01Jun2026 01:11:28.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set the world spawn point to -9, 66, 2 [0.0]]
+[01Jun2026 01:11:29.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1503 chunks (35.57%), ETA: 0:00:55, Rate: 49.4 cps, Current: 17, -14
+[01Jun2026 01:11:30.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1510 chunks (35.74%), ETA: 0:00:55, Rate: 48.6 cps, Current: -3, -32
+[01Jun2026 01:11:32.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1533 chunks (36.28%), ETA: 0:00:57, Rate: 47.2 cps, Current: 20, -12
+[01Jun2026 01:11:33.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1580 chunks (37.40%), ETA: 0:00:55, Rate: 47.9 cps, Current: 18, -9
+[01Jun2026 01:11:34.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1605 chunks (37.99%), ETA: 0:00:57, Rate: 45.8 cps, Current: 19, -3
+[01Jun2026 01:11:36.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1631 chunks (38.60%), ETA: 0:00:57, Rate: 45.3 cps, Current: 22, -7
+[01Jun2026 01:11:37.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1642 chunks (38.86%), ETA: 0:01:25, Rate: 30.3 cps, Current: 23, -4
+[01Jun2026 01:11:38.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1655 chunks (39.17%), ETA: 0:01:30, Rate: 28.5 cps, Current: 26, -5
+[01Jun2026 01:11:39.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1666 chunks (39.43%), ETA: 0:01:27, Rate: 29.1 cps, Current: 29, -3
+[01Jun2026 01:11:40.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1682 chunks (39.81%), ETA: 0:01:29, Rate: 28.4 cps, Current: 29, -6
+[01Jun2026 01:11:42.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1696 chunks (40.14%), ETA: 0:01:29, Rate: 28.2 cps, Current: 29, -9
+[01Jun2026 01:11:43.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1722 chunks (40.76%), ETA: 0:01:28, Rate: 28.2 cps, Current: 23, -12
+[01Jun2026 01:11:44.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1746 chunks (41.33%), ETA: 0:01:28, Rate: 27.9 cps, Current: 29, -12
+[01Jun2026 01:11:45.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1762 chunks (41.70%), ETA: 0:01:28, Rate: 28.0 cps, Current: 23, -16
+[01Jun2026 01:11:46.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1769 chunks (41.87%), ETA: 0:01:30, Rate: 27.1 cps, Current: 30, -18
+[01Jun2026 01:11:47.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1779 chunks (42.11%), ETA: 0:01:30, Rate: 27.1 cps, Current: 23, -1
+[01Jun2026 01:11:48.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1796 chunks (42.51%), ETA: 0:01:29, Rate: 27.0 cps, Current: 27, -21
+[01Jun2026 01:11:49.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1818 chunks (43.03%), ETA: 0:01:27, Rate: 27.6 cps, Current: 23, -17
+[01Jun2026 01:11:50.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1847 chunks (43.72%), ETA: 0:01:25, Rate: 27.7 cps, Current: 17, -19
+[01Jun2026 01:11:51.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1873 chunks (44.33%), ETA: 0:01:22, Rate: 28.4 cps, Current: 31, -13
+[01Jun2026 01:11:53.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1895 chunks (44.85%), ETA: 0:01:21, Rate: 28.6 cps, Current: 21, -24
+[01Jun2026 01:11:54.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1922 chunks (45.49%), ETA: 0:01:18, Rate: 29.4 cps, Current: 16, -29
+[01Jun2026 01:11:55.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1945 chunks (46.04%), ETA: 0:01:18, Rate: 29.1 cps, Current: 22, -28
+[01Jun2026 01:11:56.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1964 chunks (46.49%), ETA: 0:01:18, Rate: 28.8 cps, Current: 25, -24
+[01Jun2026 01:11:58.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1994 chunks (47.20%), ETA: 0:02:11, Rate: 17.0 cps, Current: 29, -26
+[01Jun2026 01:11:59.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2005 chunks (47.46%), ETA: 0:02:07, Rate: 17.4 cps, Current: 27, -30
+[01Jun2026 01:12:01.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2015 chunks (47.69%), ETA: 0:02:12, Rate: 16.7 cps, Current: 31, -14
+[01Jun2026 01:12:02.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2032 chunks (48.09%), ETA: 0:02:19, Rate: 15.7 cps, Current: 22, -32
+[01Jun2026 01:12:03.435] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@55de5d57[id=<null>,name=PingEm,properties={},legacy=false] (/26.241.72.119:57638) lost connection: Disconnected
+[01Jun2026 01:12:03.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2040 chunks (48.28%), ETA: 0:02:24, Rate: 15.1 cps, Current: 30, -32
+[01Jun2026 01:12:05.006] [Worker-Main-1/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2041 chunks (48.31%), ETA: 0:02:33, Rate: 14.2 cps, Current: 31, -25
+[01Jun2026 01:12:06.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2050 chunks (48.52%), ETA: 0:02:32, Rate: 14.2 cps, Current: 1, -33
+[01Jun2026 01:12:07.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2063 chunks (48.83%), ETA: 0:02:32, Rate: 14.2 cps, Current: 14, -33
+[01Jun2026 01:12:09.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2071 chunks (49.02%), ETA: 0:02:36, Rate: 13.7 cps, Current: 22, -33
+[01Jun2026 01:12:11.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2081 chunks (49.25%), ETA: 0:02:41, Rate: 13.3 cps, Current: -32, -33
+[01Jun2026 01:12:12.056] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PingEm[/26.241.72.119:57639] logged in with entity id 1174 at (8.527530493975517, 71.79673560066871, 4.128726122516119)
+[01Jun2026 01:12:12.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm joined the game
+[01Jun2026 01:12:12.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2088 chunks (49.42%), ETA: 0:02:52, Rate: 12.4 cps, Current: -25, -33
+[01Jun2026 01:12:14.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2099 chunks (49.68%), ETA: 0:02:57, Rate: 12.0 cps, Current: -23, -33
+[01Jun2026 01:12:18.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2113 chunks (50.01%), ETA: 0:03:18, Rate: 10.6 cps, Current: -33, -33
+[01Jun2026 01:12:20.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2121 chunks (50.20%), ETA: 0:03:48, Rate: 9.2 cps, Current: -33, -25
+[01Jun2026 01:12:22.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2300 chunks (54.44%), ETA: 0:02:16, Rate: 14.1 cps, Current: -17, 13
+[01Jun2026 01:12:23.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2309 chunks (54.65%), ETA: 0:02:18, Rate: 13.9 cps, Current: -33, -9
+[01Jun2026 01:12:24.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2330 chunks (55.15%), ETA: 0:02:18, Rate: 13.6 cps, Current: -24, 12
+[01Jun2026 01:12:26.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2393 chunks (56.64%), ETA: 0:02:04, Rate: 14.8 cps, Current: -33, 14
+[01Jun2026 01:12:27.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2409 chunks (57.02%), ETA: 0:02:05, Rate: 14.5 cps, Current: -32, 18
+[01Jun2026 01:12:28.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2425 chunks (57.40%), ETA: 0:02:03, Rate: 14.5 cps, Current: -29, 18
+[01Jun2026 01:12:29.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2436 chunks (57.66%), ETA: 0:02:01, Rate: 14.8 cps, Current: -27, 20
+[01Jun2026 01:12:30.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -45.988024736127684,-1.5,138.388588432328
+[01Jun2026 01:12:30.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -45.988024736127684,-1.5,138.388588432328
+[01Jun2026 01:12:30.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -45.988024736127684,-1.5,138.388588432328
+[01Jun2026 01:12:30.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -45.988024736127684,-1.5,138.388588432328
+[01Jun2026 01:12:30.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2452 chunks (58.04%), ETA: 0:02:00, Rate: 14.7 cps, Current: -32, 22
+[01Jun2026 01:12:32.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2470 chunks (58.46%), ETA: 0:01:58, Rate: 14.8 cps, Current: -30, 26
+[01Jun2026 01:12:33.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2487 chunks (58.86%), ETA: 0:01:54, Rate: 15.2 cps, Current: -33, 21
+[01Jun2026 01:12:34.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2500 chunks (59.17%), ETA: 0:01:49, Rate: 15.7 cps, Current: -27, 29
+[01Jun2026 01:12:35.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2525 chunks (59.76%), ETA: 0:01:45, Rate: 16.0 cps, Current: -25, 15
+[01Jun2026 01:12:36.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2539 chunks (60.09%), ETA: 0:01:45, Rate: 16.0 cps, Current: -25, 25
+[01Jun2026 01:12:38.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2560 chunks (60.59%), ETA: 0:01:38, Rate: 16.9 cps, Current: -21, 28
+[01Jun2026 01:12:39.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2577 chunks (60.99%), ETA: 0:01:33, Rate: 17.7 cps, Current: -19, 26
+[01Jun2026 01:12:40.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2590 chunks (61.30%), ETA: 0:01:33, Rate: 17.5 cps, Current: -19, 30
+[01Jun2026 01:12:40.599] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2.3431988229886103,5.5,128.16423237854377
+[01Jun2026 01:12:40.606] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2.3431988229886103,5.5,128.16423237854377
+[01Jun2026 01:12:40.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2.3431988229886103,5.5,128.16423237854377
+[01Jun2026 01:12:40.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2.3431988229886103,5.5,128.16423237854377
+[01Jun2026 01:12:40.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2.3431988229886103,5.5,128.16423237854377
+[01Jun2026 01:12:41.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2596 chunks (61.44%), ETA: 0:01:30, Rate: 18.0 cps, Current: -18, 30
+[01Jun2026 01:12:42.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2658 chunks (62.91%), ETA: 0:01:21, Rate: 19.3 cps, Current: -17, 16
+[01Jun2026 01:12:43.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2683 chunks (63.50%), ETA: 0:01:18, Rate: 19.7 cps, Current: -11, 19
+[01Jun2026 01:12:44.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2701 chunks (63.93%), ETA: 0:01:07, Rate: 22.6 cps, Current: -13, 21
+[01Jun2026 01:12:45.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2725 chunks (64.50%), ETA: 0:01:06, Rate: 22.6 cps, Current: -14, 23
+[01Jun2026 01:12:46.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2745 chunks (64.97%), ETA: 0:01:05, Rate: 22.5 cps, Current: -15, 30
+[01Jun2026 01:12:48.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2771 chunks (65.59%), ETA: 0:01:04, Rate: 22.5 cps, Current: -10, 23
+[01Jun2026 01:12:49.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2779 chunks (65.78%), ETA: 0:01:02, Rate: 23.2 cps, Current: -9, 17
+[01Jun2026 01:12:49.746] [Netty Server IO #10/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [watut:main,ic_ia:main,waystones:network] rejected vanilla connections
+[01Jun2026 01:12:49.746] [Netty Server IO #10/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/26.178.81.65:61687] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[01Jun2026 01:12:50.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2797 chunks (66.20%), ETA: 0:01:02, Rate: 22.9 cps, Current: -9, 29
+[01Jun2026 01:12:51.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2813 chunks (66.58%), ETA: 0:01:18, Rate: 17.9 cps, Current: -6, 29
+[01Jun2026 01:12:52.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2827 chunks (66.91%), ETA: 0:01:18, Rate: 17.7 cps, Current: -6, 30
+[01Jun2026 01:12:53.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2834 chunks (67.08%), ETA: 0:01:18, Rate: 17.6 cps, Current: -3, 24
+[01Jun2026 01:12:54.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2846 chunks (67.36%), ETA: 0:01:19, Rate: 17.4 cps, Current: -3, 22
+[01Jun2026 01:12:55.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3433 chunks (81.25%), ETA: 0:00:22, Rate: 35.5 cps, Current: -15, 31
+[01Jun2026 01:12:56.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3446 chunks (81.56%), ETA: 0:00:22, Rate: 35.3 cps, Current: 3, 17
+[01Jun2026 01:12:58.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3460 chunks (81.89%), ETA: 0:00:21, Rate: 35.0 cps, Current: 4, 19
+[01Jun2026 01:12:59.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3482 chunks (82.41%), ETA: 0:00:20, Rate: 35.5 cps, Current: -1, 22
+[01Jun2026 01:12:59.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm was killed
+[01Jun2026 01:12:59.566] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is 03a018b5-1bb6-4f3d-9fdc-e66126853965
+[01Jun2026 01:12:59.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Killed PingEm]
+[01Jun2026 01:13:00.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3506 chunks (82.98%), ETA: 0:00:19, Rate: 36.1 cps, Current: 2, 25
+[01Jun2026 01:13:01.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3518 chunks (83.27%), ETA: 0:00:19, Rate: 35.7 cps, Current: 2, 27
+[01Jun2026 01:13:02.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3537 chunks (83.72%), ETA: 0:00:19, Rate: 35.9 cps, Current: 5, 27
+[01Jun2026 01:13:03.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3555 chunks (84.14%), ETA: 0:00:18, Rate: 36.0 cps, Current: 7, 22
+[01Jun2026 01:13:04.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3559 chunks (84.24%), ETA: 0:00:18, Rate: 35.8 cps, Current: 6, 27
+[01Jun2026 01:13:05.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3581 chunks (84.76%), ETA: 0:00:17, Rate: 36.1 cps, Current: 10, 24
+[01Jun2026 01:13:07.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3592 chunks (85.02%), ETA: 0:00:17, Rate: 35.6 cps, Current: 12, 28
+[01Jun2026 01:13:08.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3606 chunks (85.35%), ETA: 0:00:17, Rate: 35.4 cps, Current: 13, 26
+[01Jun2026 01:13:09.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3615 chunks (85.56%), ETA: 0:00:17, Rate: 35.3 cps, Current: 13, 23
+[01Jun2026 01:13:10.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3680 chunks (87.10%), ETA: 0:00:14, Rate: 37.3 cps, Current: 15, 17
+[01Jun2026 01:13:11.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3688 chunks (87.29%), ETA: 0:00:15, Rate: 35.7 cps, Current: -6, 31
+[01Jun2026 01:13:12.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3710 chunks (87.81%), ETA: 0:00:14, Rate: 35.4 cps, Current: 21, 19
+[01Jun2026 01:13:13.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3724 chunks (88.14%), ETA: 0:00:14, Rate: 35.3 cps, Current: 17, 20
+[01Jun2026 01:13:14.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3743 chunks (88.59%), ETA: 0:00:13, Rate: 35.1 cps, Current: 18, 22
+[01Jun2026 01:13:16.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3761 chunks (89.02%), ETA: 0:00:13, Rate: 34.6 cps, Current: 16, 28
+[01Jun2026 01:13:17.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3776 chunks (89.37%), ETA: 0:00:13, Rate: 34.3 cps, Current: 19, 28
+[01Jun2026 01:13:18.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3787 chunks (89.63%), ETA: 0:00:12, Rate: 34.5 cps, Current: 21, 27
+[01Jun2026 01:13:19.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3806 chunks (90.08%), ETA: 0:00:12, Rate: 34.1 cps, Current: 23, 25
+[01Jun2026 01:13:20.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3823 chunks (90.49%), ETA: 0:00:11, Rate: 34.1 cps, Current: 9, 31
+[01Jun2026 01:13:22.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3838 chunks (90.84%), ETA: 0:00:11, Rate: 34.1 cps, Current: 27, 29
+[01Jun2026 01:13:23.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3848 chunks (91.08%), ETA: 0:00:11, Rate: 34.3 cps, Current: 30, 29
+[01Jun2026 01:13:24.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3865 chunks (91.48%), ETA: 0:00:10, Rate: 34.3 cps, Current: 23, 24
+[01Jun2026 01:13:25.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3900 chunks (92.31%), ETA: 0:00:20, Rate: 15.7 cps, Current: 24, 20
+[01Jun2026 01:13:27.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3928 chunks (92.97%), ETA: 0:00:18, Rate: 16.2 cps, Current: 30, 20
+[01Jun2026 01:13:28.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3942 chunks (93.30%), ETA: 0:00:17, Rate: 16.0 cps, Current: 28, 14
+[01Jun2026 01:13:29.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3947 chunks (93.42%), ETA: 0:00:18, Rate: 15.2 cps, Current: 30, 15
+[01Jun2026 01:13:30.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3961 chunks (93.75%), ETA: 0:00:17, Rate: 15.4 cps, Current: 17, 31
+[01Jun2026 01:13:31.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3972 chunks (94.01%), ETA: 0:00:16, Rate: 15.2 cps, Current: 25, 13
+[01Jun2026 01:13:32.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4002 chunks (94.72%), ETA: 0:00:14, Rate: 15.6 cps, Current: 21, 15
+[01Jun2026 01:13:33.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4063 chunks (96.17%), ETA: 0:00:09, Rate: 17.0 cps, Current: 31, 26
+[01Jun2026 01:13:34.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4115 chunks (97.40%), ETA: 0:00:05, Rate: 18.5 cps, Current: 20, 0
+[01Jun2026 01:13:36.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4148 chunks (98.18%), ETA: 0:00:04, Rate: 18.7 cps, Current: 25, 8
+[01Jun2026 01:13:37.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4175 chunks (98.82%), ETA: 0:00:02, Rate: 19.2 cps, Current: 27, 4
+[01Jun2026 01:13:38.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4207 chunks (99.57%), ETA: 0:00:00, Rate: 19.8 cps, Current: 31, 18
+[01Jun2026 01:13:39.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:02:53
+[01Jun2026 01:14:02.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm fell from a high place
+[01Jun2026 01:14:02.347] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is 1e1e9f71-e1ae-43e3-b2ee-fe159c7ea4f0
+[01Jun2026 01:14:38.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm has made the advancement [Monster Hunter]
+[01Jun2026 01:15:34.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm moved too quickly! 9.825890452339321,0.02442408821369213,2.8163205036194174
+[01Jun2026 01:15:51.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 4.488533091025862,1.5,162.79038805893774
+[01Jun2026 01:15:51.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 4.488533091025862,1.5,162.79038805893774
+[01Jun2026 01:15:51.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 4.488533091025862,1.5,162.79038805893774
+[01Jun2026 01:15:51.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 4.488533091025862,1.5,162.79038805893774
+[01Jun2026 01:16:02.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set PingEm's game mode to Survival Mode]
+[01Jun2026 01:16:25.191] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 01:16:25.596] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 01:16:25.745] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 01:16:25.945] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 01:16:28.141] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-1, y=67, z=-1}
+[01Jun2026 01:16:28.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-1, y=67, z=-1}
+[01Jun2026 01:16:30.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-7, y=65, z=-2}
+[01Jun2026 01:16:33.242] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-5, y=65, z=1}
+[01Jun2026 01:16:33.587] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-5, y=65, z=0}
+[01Jun2026 01:16:33.837] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-3, y=66, z=-1}
+[01Jun2026 01:16:35.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=2, y=67, z=6}
+[01Jun2026 01:16:40.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 01:16:46.498] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-23, y=67, z=-2}
+[01Jun2026 01:16:46.542] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=74, z=19} BlockPos{x=-24, y=67, z=-2}
+[01Jun2026 01:17:54.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm was killed
+[01Jun2026 01:17:54.465] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is cfac0d50-4352-48e5-aca7-e78650cd080e
+[01Jun2026 01:17:54.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Killed PingEm]
+[01Jun2026 01:18:00.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported PingEm to MamaMoRed]
+[01Jun2026 01:18:40.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Removed 8 item(s) from player PingEm]
+[01Jun2026 01:18:44.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Removed 1 item(s) from player PingEm]
+[01Jun2026 01:21:29.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 10.056161442806667,-3.5,-49.33475349002194
+[01Jun2026 01:21:29.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 10.056161442806667,-3.5,-49.33475349002194
+[01Jun2026 01:21:29.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 10.056161442806667,-3.5,-49.33475349002194
+[01Jun2026 01:21:29.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 10.056161442806667,-3.5,-49.33475349002194
+[01Jun2026 01:21:29.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 10.056161442806667,-3.5,-49.33475349002194
+[01Jun2026 01:22:10.346] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -9.986191229502424,-2.5,90.25564100945715
+[01Jun2026 01:22:10.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -9.986191229502424,-2.5,90.25564100945715
+[01Jun2026 01:22:10.361] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -9.986191229502424,-2.5,90.25564100945715
+[01Jun2026 01:22:10.367] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -9.986191229502424,-2.5,90.25564100945715
+[01Jun2026 01:22:10.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -9.986191229502424,-2.5,90.25564100945715
+[01Jun2026 01:23:08.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm was killed
+[01Jun2026 01:23:08.323] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is 966c25df-14a7-4709-bcf9-8571a5136dbe
+[01Jun2026 01:23:08.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Killed PingEm]
+[01Jun2026 01:23:14.692] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=66, z=8}
+[01Jun2026 01:23:18.393] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=66, z=8}
+[01Jun2026 01:23:18.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=66, z=8}
+[01Jun2026 01:23:18.892] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=66, z=8}
+[01Jun2026 01:23:26.145] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-21, y=65, z=9}
+[01Jun2026 01:23:26.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-21, y=65, z=10}
+[01Jun2026 01:23:26.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-21, y=65, z=11}
+[01Jun2026 01:23:30.797] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-20, y=65, z=8}
+[01Jun2026 01:26:05.097] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=24, y=72, z=5} BlockPos{x=-18, y=66, z=-8}
+[01Jun2026 01:27:35.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm was shot by Skeleton
+[01Jun2026 01:27:35.353] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is 71fc4f6f-7179-46ed-9ced-d7c89bb10500
+[01Jun2026 01:27:39.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported MamaMoRed to PingEm]
+[01Jun2026 01:27:39.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.847] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.854] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:39.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -17.5798405796832,-4.061164020887858,-16.106177089221376
+[01Jun2026 01:27:59.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 1 [Wooden Sword] to PingEm]
+[01Jun2026 01:28:38.510] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Esponjateo[/[fdfd::1a06:b37f]:64663] logged in with entity id 6471 at (-15.5, 66.0, -7.5)
+[01Jun2026 01:28:38.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo joined the game
+[01Jun2026 01:29:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Monster Hunter]
+[01Jun2026 01:29:17.202] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-15, y=64, z=-15} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 01:29:29.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Monster Hunter]
+[01Jun2026 01:29:36.298] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=10, y=70, z=22} BlockPos{x=5, y=67, z=15}
+[01Jun2026 01:29:36.549] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=10, y=70, z=22} BlockPos{x=5, y=67, z=17}
+[01Jun2026 01:29:36.748] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=10, y=70, z=22} BlockPos{x=6, y=67, z=18}
+[01Jun2026 01:29:58.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo was shot by Skeleton
+[01Jun2026 01:29:58.758] [Server thread/INFO] [gravestone/]: The death ID of player Esponjateo is 062e1d23-7c85-44bc-939f-6dd3debae8d8
+[01Jun2026 01:30:23.395] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3, y=66, z=-16} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 01:30:23.448] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3, y=66, z=-16} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 01:30:35.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set the time to 1000]
+[01Jun2026 01:30:35.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo was shot by Skeleton
+[01Jun2026 01:30:35.544] [Server thread/INFO] [gravestone/]: The death ID of player Esponjateo is 01b45c57-2265-4dbc-8c39-10a3965d05bb
+[01Jun2026 01:30:56.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Craft basic backpack]
+[01Jun2026 01:31:00.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Craft basic backpack]
+[01Jun2026 01:31:13.100] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=13, y=70, z=5} BlockPos{x=0, y=66, z=3}
+[01Jun2026 01:33:28.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm was kicked for floating too long!
+[01Jun2026 01:33:28.194] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm lost connection: Disconnected
+[01Jun2026 01:33:28.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm left the game
+[01Jun2026 01:33:28.238] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Jun2026 01:33:43.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
+[01Jun2026 01:33:43.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
+[01Jun2026 01:34:02.030] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PingEm[/26.241.72.119:57824] logged in with entity id 7776 at (22.49720042174307, 75.25220334025373, 1.0217793744277104)
+[01Jun2026 01:34:02.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm joined the game
+[01Jun2026 01:34:22.472] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Esponjateo[/[fdfd::1a06:b37f]:59627] logged in with entity id 7927 at (30.873030903892072, 73.0, 8.01642621365071)
+[01Jun2026 01:34:22.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo joined the game
+[01Jun2026 01:36:09.742] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
+[01Jun2026 01:36:09.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
+[01Jun2026 01:36:37.991] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@13b73385[id=<null>,name=Esponjateo,properties={},legacy=false] (/[fdfd::1a06:b37f]:59654) lost connection: Disconnected
+[01Jun2026 01:36:48.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:51.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:51.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:52.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:53.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:53.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:54.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:54.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:36:55.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <PingEm> ./effect give PingEm saturation 5 255
+[01Jun2026 01:37:50.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Spectator Mode]
+[01Jun2026 01:37:54.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Creative Mode]
+[01Jun2026 01:37:54.935] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@47350f8a[id=<null>,name=Esponjateo,properties={},legacy=false] (/[fdfd::1a06:b37f]:52878) lost connection: Disconnected
+[01Jun2026 01:38:06.191] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4a62938[id=<null>,name=Esponjateo,properties={},legacy=false] (/[fdfd::1a06:b37f]:54241) lost connection: Disconnected
+[01Jun2026 01:38:14.932] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Esponjateo[/[fdfd::1a06:b37f]:51979] logged in with entity id 8697 at (19.663661346740668, 72.41999998688698, 5.9550782885030875)
+[01Jun2026 01:38:14.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo joined the game
+[01Jun2026 01:38:37.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 1 [Steak] to PingEm]
+[01Jun2026 01:38:56.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
+[01Jun2026 01:38:56.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
+[01Jun2026 01:38:58.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 64 [Spider Eye] to PingEm]
+[01Jun2026 01:41:06.692] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@28d78587[id=<null>,name=Esponjateo,properties={},legacy=false] (/[fdfd::1a06:b37f]:64081) lost connection: Timed out
+[01Jun2026 01:41:45.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Removed 73 item(s) from player MamaMoRed]
+[01Jun2026 01:42:01.704] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=8, y=70, z=-2} BlockPos{x=5, y=69, z=-7}
+[01Jun2026 01:43:01.158] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=68, z=-30} BlockPos{x=-7, y=66, z=12}
+[01Jun2026 01:46:08.611] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=21, y=72, z=1} BlockPos{x=-12, y=64, z=-12}
+[01Jun2026 01:46:08.861] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=21, y=72, z=1} BlockPos{x=-11, y=63, z=-12}
+[01Jun2026 01:46:09.062] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=21, y=72, z=1} BlockPos{x=-12, y=64, z=-11}
+[01Jun2026 01:46:09.512] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=21, y=72, z=1} BlockPos{x=-14, y=65, z=-12}
+[01Jun2026 01:47:25.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported MamaMoRed to PingEm]
+[01Jun2026 01:47:25.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.848] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:25.876] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 22.102021346053306,-12.048331740684759,7.92154473278144
+[01Jun2026 01:47:48.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Spectator Mode]
+[01Jun2026 01:48:56.000] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3433dbb5[id=<null>,name=Esponjateo,properties={},legacy=false] (/[fdfd::1a06:b37f]:49925) lost connection: Disconnected
+[01Jun2026 01:50:22.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Esponjateo[/[fdfd::1a06:b37f]:62382] logged in with entity id 10995 at (24.099304675666417, 73.0, 21.131818153119838)
+[01Jun2026 01:50:22.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo joined the game
+[01Jun2026 01:53:22.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported Esponjateo to MamaMoRed]
+[01Jun2026 01:53:22.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo moved too quickly! 3.3465558383894134,-3.8408721909577253,-15.951150319722004
+[01Jun2026 01:53:23.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm was slain by Esponjateo
+[01Jun2026 01:53:23.194] [Server thread/INFO] [gravestone/]: The death ID of player PingEm is 3e278f38-fb2e-4100-8f37-8b5ad0662c67
+[01Jun2026 01:56:37.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Survival Mode]
+[01Jun2026 01:56:42.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed was killed
+[01Jun2026 01:56:42.272] [Server thread/INFO] [gravestone/]: The death ID of player MamaMoRed is 96b92e80-b50a-4d6f-a6b1-2fc838f42cff
+[01Jun2026 01:56:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Killed MamaMoRed]
+[01Jun2026 01:56:59.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set the time to 1000]
+[01Jun2026 01:59:49.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Stone Age]
+[01Jun2026 01:59:57.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Getting an Upgrade]
+[01Jun2026 02:01:17.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm has made the advancement [(Optional) Fluid Tanks Upgrade]
+[01Jun2026 02:01:17.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [(Optional) Fluid Tanks Upgrade]
+[01Jun2026 02:01:17.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [(Optional) Fluid Tanks Upgrade]
+[01Jun2026 02:01:17.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 1 [Backpack Tank] to 3]
+[01Jun2026 02:01:24.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Removed 3 item(s) from 3 players]
+[01Jun2026 02:01:27.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Creative Mode]
+[01Jun2026 02:01:41.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm has made the advancement [Craft basic backpack]
+[01Jun2026 02:01:41.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 1 [Standard Traveler's Backpack] to 3]
+[01Jun2026 02:01:46.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Survival Mode]
+[01Jun2026 02:03:38.590] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=27, y=71, z=9} BlockPos{x=-12, y=66, z=18}
+[01Jun2026 02:08:28.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Acquire Hardware]
+[01Jun2026 02:10:46.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Stone Age]
+[01Jun2026 02:11:32.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Getting an Upgrade]
+[01Jun2026 02:12:08.203] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2c901706[id=<null>,name=Torryku,properties={},legacy=false] (/26.112.16.78:56140) lost connection: Disconnected
+[01Jun2026 02:12:33.660] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Torryku[/26.112.16.78:57542] logged in with entity id 15870 at (-16.5, 66.0, 1.5)
+[01Jun2026 02:12:33.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku joined the game
+[01Jun2026 02:13:29.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Suit Up]
+[01Jun2026 02:18:01.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Isn't It Iron Pick]
+[01Jun2026 02:20:54.576] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 02:20:54.956] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 02:20:55.398] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 02:20:55.995] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 02:21:04.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku has made the advancement [Stone Age]
+[01Jun2026 02:21:21.200] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=-1, y=66, z=11}
+[01Jun2026 02:21:21.275] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=66, z=11}
+[01Jun2026 02:21:21.471] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=66, z=12}
+[01Jun2026 02:21:21.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=67, z=13}
+[01Jun2026 02:21:21.776] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=67, z=13}
+[01Jun2026 02:21:21.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=67, z=13}
+[01Jun2026 02:21:21.873] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=0, y=67, z=13}
+[01Jun2026 02:21:21.926] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=1, y=67, z=13}
+[01Jun2026 02:21:23.175] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=2, y=67, z=16}
+[01Jun2026 02:21:23.552] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.617] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.699] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.722] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.771] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.826] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.874] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.918] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:23.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku has made the advancement [Getting an Upgrade]
+[01Jun2026 02:21:23.977] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:24.019] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:24.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=654, y=72, z=-63} BlockPos{x=4, y=67, z=18}
+[01Jun2026 02:21:37.248] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7, y=69, z=23} BlockPos{x=4, y=67, z=15}
+[01Jun2026 02:21:37.276] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7, y=69, z=23} BlockPos{x=4, y=67, z=16}
+[01Jun2026 02:21:38.745] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7, y=69, z=23} BlockPos{x=2, y=67, z=16}
+[01Jun2026 02:21:38.801] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=7, y=69, z=23} BlockPos{x=2, y=67, z=17}
+[01Jun2026 02:23:24.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku has made the advancement [Ice Bucket Challenge]
+[01Jun2026 02:24:04.344] [Worker-Main-4/ERROR] [net.minecraft.world.entity.animal.allay.Allay/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-12717329,-1471723623,-1908530992,507571752],type:"minecraft:entity",y_offset:0.36f}}]
+[01Jun2026 02:24:54.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Not Today, Thank You]
+[01Jun2026 02:26:38.821] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=18, y=43, z=616}
+[01Jun2026 02:26:38.824] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=18, y=44, z=617}
+[01Jun2026 02:26:38.826] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=18, y=44, z=616}
+[01Jun2026 02:26:38.827] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=18, y=41, z=616}
+[01Jun2026 02:26:38.828] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=18, y=42, z=617}
+[01Jun2026 02:26:38.828] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=18, y=43, z=618}
+[01Jun2026 02:26:38.833] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=18, y=42, z=616}
+[01Jun2026 02:26:38.838] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=18, y=43, z=617}
+[01Jun2026 02:26:38.838] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=18, y=44, z=618}
+[01Jun2026 02:26:38.844] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=18, y=41, z=618}
+[01Jun2026 02:26:38.848] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=18, y=42, z=618}
+[01Jun2026 02:28:32.591] [Worker-Main-5/ERROR] [net.minecraft.world.entity.animal.allay.Allay/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-787770274,1601195410,-2092835639,1806752064],type:"minecraft:entity",y_offset:0.36f}}]
+[01Jun2026 02:29:00.965] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=-631, y=36, z=749}
+[01Jun2026 02:29:00.966] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=-630, y=37, z=749}
+[01Jun2026 02:29:00.966] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=-629, y=38, z=749}
+[01Jun2026 02:29:00.966] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=-631, y=35, z=749}
+[01Jun2026 02:29:00.968] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=-630, y=36, z=749}
+[01Jun2026 02:29:00.968] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=-629, y=37, z=749}
+[01Jun2026 02:29:00.968] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=-631, y=38, z=749}
+[01Jun2026 02:29:00.968] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=-631, y=37, z=749}
+[01Jun2026 02:29:00.969] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=-630, y=38, z=749}
+[01Jun2026 02:29:00.969] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=-629, y=36, z=749}
+[01Jun2026 02:29:00.969] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=-629, y=35, z=749}
+[01Jun2026 02:29:11.466] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-69, y=63, z=24}
+[01Jun2026 02:30:16.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Ice Bucket Challenge]
+[01Jun2026 02:30:55.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm has made the advancement [Best Friends Forever]
+[01Jun2026 02:31:13.274] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=566, y=33, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=566, y=32, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=567, y=33, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=566, y=31, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=567, y=32, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=568, y=33, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=566, y=30, z=563}
+[01Jun2026 02:31:13.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=567, y=31, z=563}
+[01Jun2026 02:31:13.276] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=568, y=32, z=563}
+[01Jun2026 02:31:13.276] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=568, y=31, z=563}
+[01Jun2026 02:31:13.276] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=north,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=568, y=30, z=563}
+[01Jun2026 02:31:37.010] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm lost connection: Disconnected
+[01Jun2026 02:31:37.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm left the game
+[01Jun2026 02:31:58.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed has made the advancement [Sweet Dreams]
+[01Jun2026 02:32:52.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gamerule playersSleepingPercentage is now set to: 1]
+[01Jun2026 02:33:00.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gamerule playersSleepingPercentage is now set to: 0]
+[01Jun2026 02:33:17.087] [Worker-Main-7/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-63, y=63, z=-27}
+[01Jun2026 02:34:08.507] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-69, y=63, z=24}
+[01Jun2026 02:34:39.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Torryku moved too quickly! -8.888923961114102,-0.2468000194787976,5.269872200059808
+[01Jun2026 02:35:06.657] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-62, y=-56, z=1771}
+[01Jun2026 02:35:09.658] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=625, y=27, z=918}
+[01Jun2026 02:35:09.658] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=625, y=28, z=916}
+[01Jun2026 02:35:09.658] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=625, y=29, z=917}
+[01Jun2026 02:35:09.658] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=625, y=30, z=918}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=625, y=29, z=916}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=625, y=30, z=917}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=625, y=28, z=918}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=625, y=27, z=916}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=625, y=28, z=917}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=625, y=29, z=918}
+[01Jun2026 02:35:09.659] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=625, y=30, z=916}
+[01Jun2026 02:35:10.559] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-83, y=-57, z=1787}
+[01Jun2026 02:35:10.560] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-84, y=-56, z=1789}
+[01Jun2026 02:35:10.561] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-46, y=-57, z=1791}
+[01Jun2026 02:35:11.907] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-61, y=-53, z=1791}
+[01Jun2026 02:35:19.831] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-67, y=-54, z=1791}
+[01Jun2026 02:35:19.831] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-67, y=-54, z=1791}
+[01Jun2026 02:35:39.180] [Server thread/ERROR] [net.minecraft.Util/]: recursive call to sendBlockUpdated
+java.lang.IllegalStateException: recursive call to sendBlockUpdated
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:946) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6364_(FlowingFluid.java:253) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76014_(FlowingFluid.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76010_(FlowingFluid.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6292_(FlowingFluid.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FluidState.m_76163_(FluidState.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_62812_(LevelChunk.java:501) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214959_(ChunkMap.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at com.mojang.datafixers.util.Either$Left.ifLeft(Either.java:43) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214929_(ChunkMap.java:746) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:966) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_258036_(InteractWithDoor.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257200_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01Jun2026 02:35:39.186] [Server thread/ERROR] [net.minecraft.Util/]: recursive call to sendBlockUpdated
+java.lang.IllegalStateException: recursive call to sendBlockUpdated
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:946) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6364_(FlowingFluid.java:253) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76014_(FlowingFluid.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76010_(FlowingFluid.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6292_(FlowingFluid.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FluidState.m_76163_(FluidState.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_62812_(LevelChunk.java:501) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214959_(ChunkMap.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at com.mojang.datafixers.util.Either$Left.ifLeft(Either.java:43) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214929_(ChunkMap.java:746) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:966) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_258036_(InteractWithDoor.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257200_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01Jun2026 02:35:39.192] [Server thread/ERROR] [net.minecraft.Util/]: recursive call to sendBlockUpdated
+java.lang.IllegalStateException: recursive call to sendBlockUpdated
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:946) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6364_(FlowingFluid.java:253) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76014_(FlowingFluid.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76010_(FlowingFluid.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6292_(FlowingFluid.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FluidState.m_76163_(FluidState.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_62812_(LevelChunk.java:501) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214959_(ChunkMap.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at com.mojang.datafixers.util.Either$Left.ifLeft(Either.java:43) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214929_(ChunkMap.java:746) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:966) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_258036_(InteractWithDoor.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257200_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01Jun2026 02:35:39.202] [Server thread/ERROR] [net.minecraft.Util/]: recursive call to sendBlockUpdated
+java.lang.IllegalStateException: recursive call to sendBlockUpdated
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:946) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6364_(FlowingFluid.java:253) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76014_(FlowingFluid.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76010_(FlowingFluid.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6292_(FlowingFluid.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FluidState.m_76163_(FluidState.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_62812_(LevelChunk.java:501) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214959_(ChunkMap.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at com.mojang.datafixers.util.Either$Left.ifLeft(Either.java:43) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214929_(ChunkMap.java:746) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:966) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_258036_(InteractWithDoor.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257200_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01Jun2026 02:35:39.207] [Server thread/ERROR] [net.minecraft.Util/]: recursive call to sendBlockUpdated
+java.lang.IllegalStateException: recursive call to sendBlockUpdated
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:946) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6364_(FlowingFluid.java:253) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76014_(FlowingFluid.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_76010_(FlowingFluid.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FlowingFluid.m_6292_(FlowingFluid.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.material.FluidState.m_76163_(FluidState.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.chunk.LevelChunk.m_62812_(LevelChunk.java:501) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214959_(ChunkMap.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at com.mojang.datafixers.util.Either$Left.ifLeft(Either.java:43) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214929_(ChunkMap.java:746) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:966) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_258036_(InteractWithDoor.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257200_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:92) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23163!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01Jun2026 02:36:51.618] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=-1039, y=36, z=1927}
+[01Jun2026 02:36:51.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=-1039, y=35, z=1927}
+[01Jun2026 02:36:51.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=-1039, y=38, z=1925}
+[01Jun2026 02:36:51.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=-1039, y=37, z=1925}
+[01Jun2026 02:36:51.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=-1039, y=38, z=1926}
+[01Jun2026 02:36:51.620] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=-1039, y=36, z=1925}
+[01Jun2026 02:36:51.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=-1039, y=37, z=1926}
+[01Jun2026 02:36:51.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=-1039, y=38, z=1927}
+[01Jun2026 02:36:51.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=-1039, y=35, z=1925}
+[01Jun2026 02:36:51.622] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=-1039, y=36, z=1926}
+[01Jun2026 02:36:51.622] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=west,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=-1039, y=37, z=1927}
+[01Jun2026 02:36:53.012] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-69, y=63, z=24}
+[01Jun2026 02:38:56.866] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_1,waterlogged=false] but failed at location BlockPos{x=-200, y=36, z=1985}
+[01Jun2026 02:38:56.867] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_2,waterlogged=false] but failed at location BlockPos{x=-199, y=37, z=1985}
+[01Jun2026 02:38:56.871] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_3,waterlogged=false] but failed at location BlockPos{x=-198, y=38, z=1985}
+[01Jun2026 02:38:56.871] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_2,waterlogged=false] but failed at location BlockPos{x=-200, y=37, z=1985}
+[01Jun2026 02:38:56.873] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_3,waterlogged=false] but failed at location BlockPos{x=-199, y=38, z=1985}
+[01Jun2026 02:38:56.876] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_4,waterlogged=false] but failed at location BlockPos{x=-198, y=39, z=1985}
+[01Jun2026 02:38:56.878] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_1,waterlogged=false] but failed at location BlockPos{x=-198, y=36, z=1985}
+[01Jun2026 02:38:56.881] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=right_2,waterlogged=false] but failed at location BlockPos{x=-198, y=37, z=1985}
+[01Jun2026 02:38:56.882] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_3,waterlogged=false] but failed at location BlockPos{x=-200, y=38, z=1985}
+[01Jun2026 02:38:56.882] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=middle_4,waterlogged=false] but failed at location BlockPos{x=-199, y=39, z=1985}
+[01Jun2026 02:38:56.883] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{valhelsia_structures:dungeon_door}[facing=south,open=false,part=left_4,waterlogged=false] but failed at location BlockPos{x=-200, y=39, z=1985}
+[01Jun2026 02:39:38.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Isn't It Iron Pick]
+[01Jun2026 02:42:02.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku has made the advancement [Suit Up]
+[01Jun2026 02:42:05.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku has made the advancement [Acquire Hardware]
+[01Jun2026 02:45:04.360] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Torryku lost connection: Disconnected
+[01Jun2026 02:45:04.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Torryku left the game
+[01Jun2026 02:45:46.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Acquire Hardware]
+[01Jun2026 02:46:32.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo has made the advancement [Sweet Dreams]
+[01Jun2026 03:02:48.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Gave 1 [Waystone] to Esponjateo]
+[01Jun2026 03:05:32.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.199999988079,-73.5,-773.4285289592738
+[01Jun2026 03:05:32.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.199999988079,-73.5,-773.4285289592738
+[01Jun2026 03:05:32.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.199999988079,-73.5,-773.4285289592738
+[01Jun2026 03:06:05.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo moved too quickly! 1122.800000011921,0.5,-1809.987500011921
+[01Jun2026 03:06:18.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 03:06:18.614] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 03:06:20.600] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 03:06:22.255] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 03:06:28.509] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.2445023863374,-73.5,-772.7411097343372
+[01Jun2026 03:06:28.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.2445023863374,-73.5,-772.7411097343372
+[01Jun2026 03:06:28.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.2445023863374,-73.5,-772.7411097343372
+[01Jun2026 03:06:28.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1213.2445023863374,-73.5,-772.7411097343372
+[01Jun2026 03:06:30.310] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-3, y=65, z=1}
+[01Jun2026 03:06:41.001] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=67, z=3}
+[01Jun2026 03:06:41.051] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-4, y=66, z=3}
+[01Jun2026 03:06:42.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Creative Mode]
+[01Jun2026 03:06:43.708] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1125, y=67, z=1812} BlockPos{x=-5, y=65, z=2}
+[01Jun2026 03:07:05.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Set own game mode to Survival Mode]
+[01Jun2026 03:07:19.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported Esponjateo to MamaMoRed]
+[01Jun2026 03:07:25.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo moved too quickly! -1187.199999988079,-63.5,-774.4045479016404
+[01Jun2026 03:07:32.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported MamaMoRed to Esponjateo]
+[01Jun2026 03:07:32.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2335.4870472467824,-75.5,1041.062225465046
+[01Jun2026 03:07:32.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2335.4870472467824,-75.5,1041.062225465046
+[01Jun2026 03:07:44.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo moved too quickly! -1877.0,3.5,1844.0
+[01Jun2026 03:07:51.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo moved too quickly! 2336.9786426080036,75.5,-1038.199999988079
+[01Jun2026 03:12:06.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2332.7723968788514,-73.5,1040.1337708928831
+[01Jun2026 03:12:06.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2332.7723968788514,-73.5,1040.1337708928831
+[01Jun2026 03:12:06.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2332.7723968788514,-73.5,1040.1337708928831
+[01Jun2026 03:12:06.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2332.7723968788514,-73.5,1040.1337708928831
+[01Jun2026 03:12:06.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -2332.7723968788514,-73.5,1040.1337708928831
+[01Jun2026 03:13:55.297] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed lost connection: Disconnected
+[01Jun2026 03:13:55.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed left the game
+[01Jun2026 03:14:03.633] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
+[01Jun2026 03:14:03.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
+[01Jun2026 03:14:13.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[01Jun2026 03:14:13.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[01Jun2026 03:14:17.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Jun2026 03:14:17.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jun2026 03:14:17.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jun2026 03:14:17.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jun2026 03:14:17.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jun2026 03:14:17.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jun2026 03:14:17.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jun2026 03:14:17.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jun2026 03:14:17.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jun2026 03:14:17.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jun2026 03:14:17.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
