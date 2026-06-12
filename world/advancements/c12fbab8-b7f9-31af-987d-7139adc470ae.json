@@ -17,10 +17,12 @@
       "minecraft:snowy_plains": "2026-06-01 18:59:34 +0800",
       "minecraft:dripstone_caves": "2026-06-01 19:22:04 +0800",
       "minecraft:snowy_taiga": "2026-06-01 18:59:03 +0800",
+      "minecraft:grove": "2026-06-05 16:57:14 +0800",
       "minecraft:forest": "2026-06-01 19:47:51 +0800",
       "minecraft:lush_caves": "2026-06-01 18:30:57 +0800",
       "minecraft:ocean": "2026-06-01 19:45:23 +0800",
       "minecraft:frozen_peaks": "2026-06-01 23:47:57 +0800",
+      "minecraft:deep_dark": "2026-06-05 17:07:01 +0800",
       "minecraft:savanna": "2026-06-01 19:41:39 +0800",
       "minecraft:plains": "2026-05-30 17:15:04 +0800"
     },
@@ -495,7 +497,8 @@
       "mutton": "2026-06-01 18:27:34 +0800",
       "bread": "2026-06-01 18:47:55 +0800",
       "melon_slice": "2026-06-01 19:06:33 +0800",
-      "cooked_chicken": "2026-06-01 19:26:07 +0800"
+      "cooked_chicken": "2026-06-01 19:26:07 +0800",
+      "carrot": "2026-06-05 17:03:16 +0800"
     },
     "done": false
   },
@@ -2258,15 +2261,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_egg": "2026-06-01 23:40:04 +0800"
+      "has_bow": "2026-06-01 23:10:27 +0800"
     },
     "done": true
   },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2026-06-01 23:20:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-06-01 23:21:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2026-06-01 23:29:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-06-01 23:40:04 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2026-06-01 23:40:04 +0800"
     },
     "done": true
   },
@@ -2294,33 +2321,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_gold": {
-    "criteria": {
-      "has_raw_gold_block": "2026-06-01 23:29:16 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2026-06-01 23:10:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2026-06-01 23:21:16 +0800"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/bookshelf": {
     "criteria": {
       "has_book": "2026-06-01 23:42:22 +0800"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/cake": {
+  "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
-      "has_egg": "2026-06-01 23:40:04 +0800"
+      "has_flint": "2026-06-05 16:58:22 +0800"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/heavy": {
+    "criteria": {
+      "has_item": "2026-06-05 17:11:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2026-06-05 16:58:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-06-05 17:11:29 +0800"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cow_smithing": {
+    "criteria": {
+      "has_cow": "2026-06-05 17:07:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-06-05 17:11:29 +0800"
     },
     "done": true
   },
