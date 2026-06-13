@@ -1,100 +1,24 @@
-[12Jun2026 15:07:17.715] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[12Jun2026 15:07:17.722] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[12Jun2026 15:07:19.132] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[12Jun2026 15:07:19.143] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[12Jun2026 15:07:19.163] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[12Jun2026 15:07:19.186] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[12Jun2026 15:07:19.236] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/mods/Connector-1.0.0-beta.48+1.20.1.jar%23130%23133!/ Service=ModLauncher Env=SERVER
-[12Jun2026 15:07:19.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at D:\Minecraft\Forge Server\Forge 1.20.1 Server\mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
-[12Jun2026 15:07:19.593] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[12Jun2026 15:07:19.660] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[12Jun2026 15:07:19.703] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[12Jun2026 15:07:19.747] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[12Jun2026 15:07:19.920] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[12Jun2026 15:07:20.230] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
-[12Jun2026 15:07:21.056] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[12Jun2026 15:07:21.606] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Jun2026 15:07:21.671] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[12Jun2026 15:07:21.750] [main/WARN] [mixin/]: Reference map 'slib-forge-1.20.1-modded_1.20.1-forge-refmap.json' for slib.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Jun2026 15:07:21.750] [main/WARN] [mixin/]: Reference map 'slib-forge-1.20.1-modded_1.20.1-forge-refmap.json' for slib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Jun2026 15:07:21.837] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Jun2026 15:07:21.867] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Jun2026 15:07:21.879] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Jun2026 15:07:22.596] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[12Jun2026 15:07:27.385] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[12Jun2026 15:07:27.393] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[12Jun2026 15:07:27.422] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Jun2026 15:07:27.423] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
-[12Jun2026 15:07:27.423] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[12Jun2026 15:07:27.426] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
-[12Jun2026 15:07:27.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
-[12Jun2026 15:07:27.445] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[12Jun2026 15:07:27.446] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[12Jun2026 15:07:27.473] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
-[12Jun2026 15:07:27.498] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
-[12Jun2026 15:07:27.504] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
-[12Jun2026 15:07:27.510] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
-[12Jun2026 15:07:27.583] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
-[12Jun2026 15:07:27.586] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
-[12Jun2026 15:07:27.596] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
-[12Jun2026 15:07:27.846] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[12Jun2026 15:07:27.846] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[12Jun2026 15:07:28.389] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
-[12Jun2026 15:07:28.389] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
-[12Jun2026 15:07:28.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[12Jun2026 15:07:28.459] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[12Jun2026 15:07:28.459] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[12Jun2026 15:07:28.461] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[12Jun2026 15:07:28.461] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[12Jun2026 15:07:28.493] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[12Jun2026 15:07:28.493] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
-[12Jun2026 15:07:28.495] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
-[12Jun2026 15:07:28.496] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
-[12Jun2026 15:07:28.496] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[12Jun2026 15:07:29.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
-[12Jun2026 15:07:29.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Jun2026 15:07:29.156] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Jun2026 15:07:29.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
-[12Jun2026 15:07:29.637] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
-[12Jun2026 15:07:29.637] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
-[12Jun2026 15:07:31.193] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[12Jun2026 15:07:31.256] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1622 advancements
-[12Jun2026 15:07:32.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[12Jun2026 15:07:32.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Jun2026 15:07:32.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Jun2026 15:07:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Jun2026 15:07:32.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[12Jun2026 15:07:32.241] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[12Jun2026 15:07:32.392] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Jun2026 15:07:32.393] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Jun2026 15:07:32.393] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Jun2026 15:07:32.393] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Jun2026 15:07:32.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Jun2026 15:07:33.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Jun2026 15:07:35.799] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:35.799] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:35.800] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:35.801] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:35.801] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:35.909] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Jun2026 15:07:36.364] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2956 ms
-[12Jun2026 15:07:36.365] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.954s)! For help, type "help"
-[12Jun2026 15:07:36.385] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Jun2026 15:07:36.434] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
-[12Jun2026 15:07:36.447] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
-[12Jun2026 15:07:36.715] [Server thread/INFO] [PlasmoVoice/]: NioDatagramChannel UDP server is started on /[0:0:0:0:0:0:0:0]:25565
-[12Jun2026 15:07:48.923] [pool-6-thread-1/WARN] [PlasmoVoice/]: New version available 2.1.10: https://cdn.modrinth.com/data/1bZhdhsH/versions/3fdVR3eA/plasmovoice-forge-1.20.1-2.1.10.jar
-[12Jun2026 15:08:55.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
-[12Jun2026 15:08:55.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
-[12Jun2026 15:08:57.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[12Jun2026 15:08:57.423] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
-[12Jun2026 15:08:57.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Jun2026 15:08:57.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Jun2026 15:08:57.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Jun2026 15:08:57.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12Jun2026 15:08:58.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12Jun2026 15:08:58.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12Jun2026 15:08:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12Jun2026 15:08:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Jun2026 15:08:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Jun2026 15:08:58.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Jun2026 00:00:28.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
+[13Jun2026 00:00:28.264] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
+[13Jun2026 00:00:28.309] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
+[13Jun2026 00:00:28.358] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
+[13Jun2026 00:00:28.410] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
+[13Jun2026 00:00:40.364] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-244, y=79, z=1467} BlockPos{x=-247, y=79, z=1466}
+[13Jun2026 00:01:34.456] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=78, z=1499} BlockPos{x=-161, y=77, z=1497}
+[13Jun2026 00:01:34.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=78, z=1499} BlockPos{x=-161, y=77, z=1497}
+[13Jun2026 00:01:35.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=81, z=1500} BlockPos{x=-159, y=81, z=1500}
+[13Jun2026 00:01:35.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=81, z=1500} BlockPos{x=-159, y=81, z=1500}
+[13Jun2026 00:04:02.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [Those Were the Days]
+[13Jun2026 00:04:09.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [War Pigs]
+[13Jun2026 00:04:10.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm was kicked for floating too long!
+[13Jun2026 00:04:10.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm lost connection: Flying is not enabled on this server
+[13Jun2026 00:04:10.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm left the game
+[13Jun2026 00:04:10.376] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jun2026 00:04:26.698] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
+[13Jun2026 00:04:26.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
+[13Jun2026 00:04:28.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation lost connection: Disconnected
+[13Jun2026 00:04:28.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation left the game
+[13Jun2026 00:04:55.886] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
+[13Jun2026 00:04:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Jun2026 00:04:55.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Jun2026 00:04:55.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
