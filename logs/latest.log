@@ -1,24 +1,485 @@
-[13Jun2026 00:00:28.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
-[13Jun2026 00:00:28.264] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
-[13Jun2026 00:00:28.309] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
-[13Jun2026 00:00:28.358] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
-[13Jun2026 00:00:28.410] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=80, z=1470} BlockPos{x=-275, y=79, z=1469}
-[13Jun2026 00:00:40.364] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-244, y=79, z=1467} BlockPos{x=-247, y=79, z=1466}
-[13Jun2026 00:01:34.456] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=78, z=1499} BlockPos{x=-161, y=77, z=1497}
-[13Jun2026 00:01:34.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=78, z=1499} BlockPos{x=-161, y=77, z=1497}
-[13Jun2026 00:01:35.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=81, z=1500} BlockPos{x=-159, y=81, z=1500}
-[13Jun2026 00:01:35.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-160, y=81, z=1500} BlockPos{x=-159, y=81, z=1500}
-[13Jun2026 00:04:02.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [Those Were the Days]
-[13Jun2026 00:04:09.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [War Pigs]
-[13Jun2026 00:04:10.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm was kicked for floating too long!
-[13Jun2026 00:04:10.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PingEm lost connection: Flying is not enabled on this server
-[13Jun2026 00:04:10.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PingEm left the game
-[13Jun2026 00:04:10.376] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Jun2026 00:04:26.698] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Esponjateo lost connection: Disconnected
-[13Jun2026 00:04:26.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Esponjateo left the game
-[13Jun2026 00:04:28.689] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation lost connection: Disconnected
-[13Jun2026 00:04:28.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation left the game
-[13Jun2026 00:04:55.886] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
-[13Jun2026 00:04:55.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Jun2026 00:04:55.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Jun2026 00:04:55.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Jun2026 20:18:18.879] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Jun2026 20:18:18.885] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13Jun2026 20:18:19.292] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Jun2026 20:18:19.304] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[13Jun2026 20:18:19.331] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[13Jun2026 20:18:19.364] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[13Jun2026 20:18:19.441] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/mods/Connector-1.0.0-beta.48+1.20.1.jar%23130%23133!/ Service=ModLauncher Env=SERVER
+[13Jun2026 20:18:19.674] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at D:\Minecraft\Forge Server\Forge 1.20.1 Server\mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[13Jun2026 20:18:19.768] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[13Jun2026 20:18:19.772] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[13Jun2026 20:18:19.777] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[13Jun2026 20:18:19.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\Minecraft\Forge Server\Forge 1.20.1 Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[13Jun2026 20:18:19.937] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[13Jun2026 20:18:20.222] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[13Jun2026 20:18:21.051] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[13Jun2026 20:18:21.548] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jun2026 20:18:21.608] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Jun2026 20:18:21.700] [main/WARN] [mixin/]: Reference map 'slib-forge-1.20.1-modded_1.20.1-forge-refmap.json' for slib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jun2026 20:18:21.701] [main/WARN] [mixin/]: Reference map 'slib-forge-1.20.1-modded_1.20.1-forge-refmap.json' for slib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jun2026 20:18:21.782] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jun2026 20:18:21.829] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jun2026 20:18:21.840] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jun2026 20:18:22.455] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[13Jun2026 20:18:27.206] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[13Jun2026 20:18:27.210] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[13Jun2026 20:18:27.245] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Jun2026 20:18:27.248] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[13Jun2026 20:18:27.248] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[13Jun2026 20:18:27.251] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[13Jun2026 20:18:27.255] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[13Jun2026 20:18:27.272] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[13Jun2026 20:18:27.272] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[13Jun2026 20:18:27.308] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[13Jun2026 20:18:27.332] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[13Jun2026 20:18:27.341] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[13Jun2026 20:18:27.351] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[13Jun2026 20:18:27.427] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[13Jun2026 20:18:27.431] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[13Jun2026 20:18:27.438] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[13Jun2026 20:18:27.691] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[13Jun2026 20:18:27.691] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[13Jun2026 20:18:28.245] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[13Jun2026 20:18:28.245] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[13Jun2026 20:18:28.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[13Jun2026 20:18:28.340] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[13Jun2026 20:18:28.340] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[13Jun2026 20:18:28.341] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[13Jun2026 20:18:28.342] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[13Jun2026 20:18:28.380] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Jun2026 20:18:28.380] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[13Jun2026 20:18:28.381] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[13Jun2026 20:18:28.381] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[13Jun2026 20:18:28.382] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Jun2026 20:18:29.190] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jun2026 20:18:29.263] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+trade_cycling (version 1.20.1-1.0.7 -> MISSING)
+Things may not work well.
+[13Jun2026 20:18:29.682] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[13Jun2026 20:18:29.683] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Minecraft/Forge%20Server/Forge%201.20.1%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[13Jun2026 20:18:29.724] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:trade_cycling
+[13Jun2026 20:18:31.278] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[13Jun2026 20:18:31.347] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1622 advancements
+[13Jun2026 20:18:32.357] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Jun2026 20:18:32.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Jun2026 20:18:32.358] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Jun2026 20:18:32.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jun2026 20:18:32.471] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Jun2026 20:18:32.486] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[13Jun2026 20:18:32.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Jun2026 20:18:32.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Jun2026 20:18:32.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Jun2026 20:18:32.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Jun2026 20:18:32.750] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Jun2026 20:18:33.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jun2026 20:18:35.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:35.890] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:35.899] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:35.915] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:35.932] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:36.162] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jun2026 20:18:36.601] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2940 ms
+[13Jun2026 20:18:36.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.948s)! For help, type "help"
+[13Jun2026 20:18:36.625] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jun2026 20:18:36.653] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[13Jun2026 20:18:36.653] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[13Jun2026 20:18:36.872] [Server thread/INFO] [PlasmoVoice/]: NioDatagramChannel UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[13Jun2026 20:18:39.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[13Jun2026 20:18:39.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jun2026 20:18:40.403] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[13Jun2026 20:18:48.080] [pool-6-thread-1/WARN] [PlasmoVoice/]: New version available 2.1.10: https://cdn.modrinth.com/data/1bZhdhsH/versions/3fdVR3eA/plasmovoice-forge-1.20.1-2.1.10.jar
+[13Jun2026 20:19:43.426] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5a1632e1[id=<null>,name=SubtleRotation,properties={},legacy=false] (/26.100.127.38:54464) lost connection: Disconnected
+[13Jun2026 20:20:57.379] [ForkJoinPool.commonPool-worker-4/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:SubtleRotation'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:1080) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[13Jun2026 20:20:57.503] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SubtleRotation[/26.100.127.38:54488] logged in with entity id 177 at (33.69878548936398, 72.0, 1533.2325183136304)
+[13Jun2026 20:20:57.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation joined the game
+[13Jun2026 20:21:03.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin
+[13Jun2026 20:21:03.737] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-20.21.03.dat
+[13Jun2026 20:21:03.738] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 33 Y: 71.0 Z: 1532
+[13Jun2026 20:21:03.739] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 42cdfedb-661a-4f08-aa20-a2077a559c14
+[13Jun2026 20:22:03.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was blown up by Creeper
+[13Jun2026 20:22:03.181] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 08ab795a-08bc-4205-b00e-8847bf019579
+[13Jun2026 20:22:53.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Zombie
+[13Jun2026 20:22:53.927] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 79576ae7-3b97-427c-9d42-2816f139a533
+[13Jun2026 20:23:12.134] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation lost connection: Disconnected
+[13Jun2026 20:23:12.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation left the game
+[13Jun2026 20:23:45.640] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:SubtleRotation'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:1080) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[13Jun2026 20:23:45.724] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SubtleRotation[/26.100.127.38:54707] logged in with entity id 1529 at (-2914.699999988079, 105.0625, 11604.658266610262)
+[13Jun2026 20:23:45.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation joined the game
+[13Jun2026 20:28:08.009] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EnzoThor[/26.178.81.65:62279] logged in with entity id 3026 at (1371.9225461152212, 137.7531999805212, 755.4247846377156)
+[13Jun2026 20:28:08.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor joined the game
+[13Jun2026 20:28:33.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor tried to swim in lava
+[13Jun2026 20:28:33.434] [Server thread/INFO] [gravestone/]: The death ID of player EnzoThor is efe2e857-934c-43f4-9d32-21c06c804482
+[13Jun2026 20:29:47.105] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MamaMoRed[/[fdfd::1a55:a7c4]:11862] logged in with entity id 4353 at (1207.4094743203123, 142.0, 783.1675149265288)
+[13Jun2026 20:29:47.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed joined the game
+[13Jun2026 20:29:55.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor was slain by MamaMoRed
+[13Jun2026 20:29:55.401] [Server thread/INFO] [gravestone/]: The death ID of player EnzoThor is 242b9bfc-3997-4daa-91ac-43eece96816b
+[13Jun2026 20:31:08.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation tried to swim in lava
+[13Jun2026 20:31:08.439] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is d5d371fc-74e7-40b6-81e2-0b0614199db9
+[13Jun2026 20:32:14.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported MamaMoRed to SubtleRotation]
+[13Jun2026 20:32:14.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4116.842244870948,-39.0,10827.189006082433
+[13Jun2026 20:32:14.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4116.842244870948,-39.0,10827.189006082433
+[13Jun2026 20:32:14.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4116.842244870948,-39.0,10827.189006082433
+[13Jun2026 20:32:14.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4116.842244870948,-39.0,10827.189006082433
+[13Jun2026 20:32:31.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported SubtleRotation to MamaMoRed]
+[13Jun2026 20:32:31.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 4120.243513736865,39.875,-10831.220761597357
+[13Jun2026 20:32:46.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported SubtleRotation to MamaMoRed]
+[13Jun2026 20:32:46.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 794.2133434006043,-142.0,584.9284043584571
+[13Jun2026 20:32:46.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 794.2133434006043,-142.0,584.9284043584571
+[13Jun2026 20:34:03.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [(Optional) Fluid Tanks Upgrade]
+[13Jun2026 20:34:42.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MamaMoRed: Teleported MamaMoRed to SubtleRotation]
+[13Jun2026 20:34:42.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4122.276179072445,-65.0,10444.023721581907
+[13Jun2026 20:34:42.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4122.276179072445,-65.0,10444.023721581907
+[13Jun2026 20:34:42.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4122.276179072445,-65.0,10444.023721581907
+[13Jun2026 20:34:42.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4122.276179072445,-65.0,10444.023721581907
+[13Jun2026 20:34:42.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -4122.276179072445,-65.0,10444.023721581907
+[13Jun2026 20:35:32.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 22.615551757720823,6.0,265.3109283202248
+[13Jun2026 20:36:00.101] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.129] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.135] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:36:00.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! 5.910719193201658,27.5,385.7913213299871
+[13Jun2026 20:37:08.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 2336.800000011921,76.5,-1038.199999988079
+[13Jun2026 20:39:06.990] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed lost connection: Disconnected
+[13Jun2026 20:39:06.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed left the game
+[13Jun2026 20:41:30.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! -1187.262499988079,-63.5,-772.8790538919172
+[13Jun2026 20:41:56.125] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=54, y=69, z=1512} BlockPos{x=53, y=70, z=1510}
+[13Jun2026 20:43:25.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 20:43:25.339] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-20.43.25.dat
+[13Jun2026 20:43:25.340] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 51 Y: 60.0 Z: 1493
+[13Jun2026 20:43:25.340] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 188e6933-a13c-45c9-8460-038aedea2e3e
+[13Jun2026 20:47:06.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was doomed to fall by Ghast
+[13Jun2026 20:47:06.871] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is b10987c0-51ed-477c-92d6-0ed6c161454c
+[13Jun2026 20:47:16.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 22.71933877208221,5.5,265.7025970023278
+[13Jun2026 20:47:16.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 22.71933877208221,5.5,265.7025970023278
+[13Jun2026 20:48:07.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Base for upgrades]
+[13Jun2026 20:48:36.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Expand functionality]
+[13Jun2026 20:49:08.843] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@2e2eb1bd, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:312) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu.m_150399_(BackpackItemMenu.java:59) ~[travelersbackpack-forge-1.20.1-9.1.55.jar%23158!/:forge-1.20.1-9.1.55]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1554) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index 31 out of bounds for length 31
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at com.corosus.watut.PlayerStatusManagerServer.processInventorySnapshots(PlayerStatusManagerServer.java:363) ~[watut-forge-1.20.1-1.2.3.jar%23161!/:1.20.1-1.2.3]
+	at com.corosus.watut.PlayerStatusManagerServer.doClickPost(PlayerStatusManagerServer.java:229) ~[watut-forge-1.20.1-1.2.3.jar%23161!/:1.20.1-1.2.3]
+	at net.minecraft.world.inventory.AbstractContainerMenu.handler$zga000$watut$doClickPost(AbstractContainerMenu.java:899) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:514) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at com.tiviacz.travelersbackpack.inventory.menu.BackpackBaseMenu.m_150430_(BackpackBaseMenu.java:373) ~[travelersbackpack-forge-1.20.1-9.1.55.jar%23158!/:forge-1.20.1-9.1.55]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	... 18 more
+[13Jun2026 20:49:38.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Iron Tier Upgrade]
+[13Jun2026 20:54:34.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 20:54:34.981] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is b600a0be-339f-4041-b98f-ee3ca945b0b9
+[13Jun2026 20:55:29.050] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/17720, l='ServerLevel[world]', x=-2866.70, y=114.88, z=11685.50] died, message: 'Librarian was slain by Zombie'
+[13Jun2026 20:58:46.644] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MamaMoRed[/127.67.94.29:9937] logged in with entity id 19518 at (1209.487500011921, 141.0, 775.4183857482255)
+[13Jun2026 20:58:46.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed joined the game
+[13Jun2026 21:00:38.236] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor lost connection: Disconnected
+[13Jun2026 21:00:38.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor left the game
+[13Jun2026 21:00:47.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 21:00:47.186] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-21.00.47.dat
+[13Jun2026 21:00:47.187] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 72 Y: 70.0 Z: 1536
+[13Jun2026 21:00:47.188] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is e8f00dd3-6a5e-4b6b-aa57-1ff6784fabe5
+[13Jun2026 21:01:32.131] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed lost connection: Disconnected
+[13Jun2026 21:01:32.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed left the game
+[13Jun2026 21:02:02.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.112170296958993,6.5,265.3376788575915
+[13Jun2026 21:02:02.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.112170296958993,6.5,265.3376788575915
+[13Jun2026 21:02:03.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.112170296958993,6.5,265.3376788575915
+[13Jun2026 21:02:03.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.112170296958993,6.5,265.3376788575915
+[13Jun2026 21:02:03.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.112170296958993,6.5,265.3376788575915
+[13Jun2026 21:02:35.792] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MamaMoRed[/127.67.94.29:11581] logged in with entity id 21140 at (1209.099593267655, 142.0, 775.4495510032393)
+[13Jun2026 21:02:35.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed joined the game
+[13Jun2026 21:04:55.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 21:04:55.281] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 08f29a59-af9d-4037-904a-2bc34a26b7a0
+[13Jun2026 21:10:51.651] [Netty Server IO #6/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [watut:main,ic_ia:main,waystones:network] rejected vanilla connections
+[13Jun2026 21:10:51.653] [Netty Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.145.36.186:8302] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[13Jun2026 21:11:31.935] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed lost connection: Disconnected
+[13Jun2026 21:11:31.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed left the game
+[13Jun2026 21:13:07.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.398] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.446] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.498] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.548] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.599] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.650] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.699] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.747] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:13:07.796] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=90, z=1515} BlockPos{x=48, y=89, z=1515}
+[13Jun2026 21:14:27.698] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.751] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.801] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.846] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.898] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.948] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:27.999] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.051] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.102] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.150] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.250] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:28.300] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=83, z=1490} BlockPos{x=52, y=82, z=1491}
+[13Jun2026 21:14:29.549] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=81, z=1494} BlockPos{x=52, y=80, z=1495}
+[13Jun2026 21:14:29.596] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=81, z=1494} BlockPos{x=52, y=80, z=1495}
+[13Jun2026 21:14:29.649] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=81, z=1494} BlockPos{x=52, y=80, z=1495}
+[13Jun2026 21:14:33.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=1501} BlockPos{x=52, y=76, z=1500}
+[13Jun2026 21:14:33.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=1501} BlockPos{x=52, y=76, z=1500}
+[13Jun2026 21:14:33.847] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=1501} BlockPos{x=52, y=76, z=1500}
+[13Jun2026 21:14:33.900] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=1501} BlockPos{x=52, y=76, z=1500}
+[13Jun2026 21:19:20.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ccAlessandro[/127.145.36.186:8328] logged in with entity id 25974 at (-17.5, 66.0, 3.5)
+[13Jun2026 21:19:20.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro joined the game
+[13Jun2026 21:19:41.799] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=70, z=-3}
+[13Jun2026 21:19:41.841] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=70, z=-4}
+[13Jun2026 21:19:42.095] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=6, y=70, z=-4}
+[13Jun2026 21:19:53.734] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@29891070[id=<null>,name=MamaMoRed,properties={},legacy=false] (/26.85.167.196:8330) lost connection: Disconnected
+[13Jun2026 21:20:03.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Monster Hunter]
+[13Jun2026 21:20:08.789] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MamaMoRed[/[fdfd::1a55:a7c4]:8366] logged in with entity id 26358 at (1208.5490775452577, 141.0625, 778.2237171205345)
+[13Jun2026 21:20:08.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed joined the game
+[13Jun2026 21:20:17.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1186.5202829221475,-63.5,-771.5958448673405
+[13Jun2026 21:20:30.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [Swap Tools]
+[13Jun2026 21:20:34.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> SubtleRotation help pls
+[13Jun2026 21:20:37.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> hellp
+[13Jun2026 21:24:59.848] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1728.0,-75.375,-1093.0
+[13Jun2026 21:24:59.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1728.0,-75.375,-1093.0
+[13Jun2026 21:24:59.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1728.0,-75.375,-1093.0
+[13Jun2026 21:24:59.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1728.0,-75.375,-1093.0
+[13Jun2026 21:24:59.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed moved too quickly! -1728.0,-75.375,-1093.0
+[13Jun2026 21:25:49.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Stone Age]
+[13Jun2026 21:25:53.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Getting an Upgrade]
+[13Jun2026 21:26:29.447] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EnzoThor[/[fdfd::1ab2:5141]:64372] logged in with entity id 29688 at (-1125.034480936627, 68.0, 1814.8052379394112)
+[13Jun2026 21:26:29.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor joined the game
+[13Jun2026 21:27:09.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> MamaMoRed give me a backpack bitfch
+[13Jun2026 21:27:22.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MamaMoRed> i dont give backpacks to niggers
+[13Jun2026 21:30:23.860] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MamaMoRed lost connection: Disconnected
+[13Jun2026 21:30:23.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MamaMoRed left the game
+[13Jun2026 21:30:28.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 1148.8382939976523,11.5,-1811.0105533028268
+[13Jun2026 21:30:28.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 1148.8382939976523,11.5,-1811.0105533028268
+[13Jun2026 21:31:15.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [We Need to Go Deeper]
+[13Jun2026 21:31:15.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported EnzoThor to SubtleRotation
+[13Jun2026 21:31:16.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ccAlessandro lost connection: Disconnected
+[13Jun2026 21:31:16.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro left the game
+[13Jun2026 21:34:18.620] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-104, y=76, z=1547} BlockPos{x=-104, y=77, z=1547}
+[13Jun2026 21:34:18.672] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-104, y=76, z=1547} BlockPos{x=-104, y=77, z=1547}
+[13Jun2026 21:34:18.732] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-104, y=76, z=1547} BlockPos{x=-104, y=77, z=1547}
+[13Jun2026 21:34:18.771] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-104, y=76, z=1547} BlockPos{x=-104, y=77, z=1547}
+[13Jun2026 21:34:18.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-104, y=76, z=1547} BlockPos{x=-104, y=77, z=1547}
+[13Jun2026 21:34:24.183] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-110, y=69, z=1553} BlockPos{x=-109, y=69, z=1553}
+[13Jun2026 21:34:24.220] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-110, y=69, z=1553} BlockPos{x=-109, y=69, z=1553}
+[13Jun2026 21:34:24.270] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-110, y=69, z=1553} BlockPos{x=-109, y=69, z=1553}
+[13Jun2026 21:34:24.320] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-110, y=69, z=1553} BlockPos{x=-109, y=69, z=1553}
+[13Jun2026 21:34:53.571] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.620] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.685] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.720] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.770] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.833] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.871] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.920] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:53.971] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:54.021] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:34:54.082] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-134, y=48, z=1581} BlockPos{x=-132, y=49, z=1578}
+[13Jun2026 21:35:07.133] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2965c973[id=<null>,name=ccAlessandro,properties={},legacy=false] (/127.145.36.186:9574) lost connection: Disconnected
+[13Jun2026 21:35:34.885] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@a6ad097[id=<null>,name=ccAlessandro,properties={},legacy=false] (/127.145.36.186:9576) lost connection: Disconnected
+[13Jun2026 21:37:53.442] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ccAlessandro[/127.145.36.186:9589] logged in with entity id 35448 at (-371.6534929490794, 67.0, -390.8366452633803)
+[13Jun2026 21:37:53.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro joined the game
+[13Jun2026 21:37:55.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2, y=55, z=1685} BlockPos{x=133, y=57, z=1723}
+[13Jun2026 21:37:55.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2, y=55, z=1685} BlockPos{x=133, y=57, z=1723}
+[13Jun2026 21:37:55.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2, y=55, z=1685} BlockPos{x=133, y=57, z=1723}
+[13Jun2026 21:37:55.891] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2, y=55, z=1685} BlockPos{x=133, y=57, z=1723}
+[13Jun2026 21:37:55.940] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2, y=55, z=1685} BlockPos{x=133, y=57, z=1723}
+[13Jun2026 21:38:04.840] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=156, y=53, z=1731} BlockPos{x=156, y=52, z=1731}
+[13Jun2026 21:40:47.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 21:40:47.947] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-21.40.47.dat
+[13Jun2026 21:40:47.947] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 224 Y: 65.0 Z: 1754
+[13Jun2026 21:40:47.948] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is aa57f89d-116e-4eef-bd79-1f13aabb34f8
+[13Jun2026 21:42:28.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation has made the advancement [Hot Stuff]
+[13Jun2026 21:42:47.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin
+[13Jun2026 21:42:47.490] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 97ef8797-9f92-4b06-902a-8768f9e6088f
+[13Jun2026 21:46:16.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 21:46:16.292] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-21.46.16.dat
+[13Jun2026 21:46:16.293] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 209 Y: 78.0 Z: 1741
+[13Jun2026 21:46:16.293] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 5ea0d501-2291-4de6-bcdb-49210a2a5200
+[13Jun2026 21:46:26.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 3133.8956593386874,-38.5,-11771.68242101736
+[13Jun2026 21:46:26.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 3133.8956593386874,-38.5,-11771.68242101736
+[13Jun2026 21:48:41.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> arjan
+[13Jun2026 21:48:50.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> do you know where ultimne settings are
+[13Jun2026 21:48:54.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> keybinds
+[13Jun2026 21:49:12.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> i only see the key to ultimne
+[13Jun2026 21:49:14.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> dats it
+[13Jun2026 21:49:43.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> yeah thats all i know
+[13Jun2026 21:49:48.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> idk about settings
+[13Jun2026 21:49:51.040] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1848, y=91, z=818} BlockPos{x=1848, y=90, z=818}
+[13Jun2026 21:49:54.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1849, y=91, z=818} BlockPos{x=1849, y=90, z=818}
+[13Jun2026 21:49:54.993] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1849, y=91, z=817} BlockPos{x=1849, y=90, z=817}
+[13Jun2026 21:50:57.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> can i not ultmine stone
+[13Jun2026 21:51:07.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> izeya likely disabled it
+[13Jun2026 21:51:17.381] [Worker-Main-11/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [130, 56], pos: MutableBlockPos{x=2081, y=94, z=896}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / terralith:cave/thermal/dripstone]
+[13Jun2026 21:53:09.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> arjan, later can u install jei to the server too?
+[13Jun2026 21:53:18.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> ill check
+[13Jun2026 21:53:24.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Craft basic backpack]
+[13Jun2026 21:53:31.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Local Brewery]
+[13Jun2026 21:58:55.948] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=235, y=64, z=1745} BlockPos{x=235, y=63, z=1745}
+[13Jun2026 21:58:55.998] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=235, y=64, z=1745} BlockPos{x=235, y=63, z=1745}
+[13Jun2026 22:00:02.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Acquire Hardware]
+[13Jun2026 22:00:25.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Isn't It Iron Pick]
+[13Jun2026 22:01:53.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Not Today, Thank You]
+[13Jun2026 22:04:06.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Suit Up]
+[13Jun2026 22:04:56.042] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor lost connection: Disconnected
+[13Jun2026 22:04:56.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor left the game
+[13Jun2026 22:06:06.844] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EnzoThor[/[fdfd::1ab2:5141]:51612] logged in with entity id 57560 at (666.3000000119209, 69.875, 1364.1978782865658)
+[13Jun2026 22:06:06.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor joined the game
+[13Jun2026 22:08:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Diamonds!]
+[13Jun2026 22:13:05.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was doomed to fall by Piglin Brute
+[13Jun2026 22:13:05.021] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-22.13.05.dat
+[13Jun2026 22:13:05.023] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 770 Y: 59.0 Z: 1883
+[13Jun2026 22:13:05.023] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 1588fcd9-f20a-4ebc-ba86-03b2a5bfbe5e
+[13Jun2026 22:13:52.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 22:13:52.935] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is ad4b8bd8-ce33-4893-ac73-3eca18336bc1
+[13Jun2026 22:15:01.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 22:15:01.886] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 2011d01f-58dc-4aa9-8089-97bd964cffb5
+[13Jun2026 22:15:52.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Base for upgrades]
+[13Jun2026 22:16:36.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 22:16:36.488] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-22.16.36.dat
+[13Jun2026 22:16:36.488] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 770 Y: 69.02442408821369 Z: 1887
+[13Jun2026 22:16:36.489] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 8402af59-1dd8-4bb4-8f2e-638c45772720
+[13Jun2026 22:16:37.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Iron Tier Upgrade]
+[13Jun2026 22:16:46.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> bro arjan do uneed help
+[13Jun2026 22:16:56.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> nah twin
+[13Jun2026 22:17:01.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ccAlessandro> aight
+[13Jun2026 22:17:14.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Piglin Brute
+[13Jun2026 22:17:14.440] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 2d493896-f820-42ac-b8ed-2e76f0e4c253
+[13Jun2026 22:17:25.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 3133.828412321875,-38.5,-11771.339641505378
+[13Jun2026 22:19:53.410] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 1106.43756584178,73.5,-4.403588728196951
+[13Jun2026 22:19:53.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 1106.43756584178,73.5,-4.403588728196951
+[13Jun2026 22:19:53.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 1106.43756584178,73.5,-4.403588728196951
+[13Jun2026 22:20:18.304] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 2336.9630877169734,76.5,-1038.0130370027491
+[13Jun2026 22:20:18.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 2336.9630877169734,76.5,-1038.0130370027491
+[13Jun2026 22:20:18.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor moved too quickly! 2336.9630877169734,76.5,-1038.0130370027491
+[13Jun2026 22:21:55.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation was slain by Enderman
+[13Jun2026 22:21:55.191] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for SubtleRotation with unique ID travelersbackpack.cake_13.06.2026-22.21.55.dat
+[13Jun2026 22:21:55.191] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: 750 Y: 68.0 Z: 1891
+[13Jun2026 22:21:55.191] [Server thread/INFO] [gravestone/]: The death ID of player SubtleRotation is 2d25e3a8-6374-4edd-a3f1-34007727eed4
+[13Jun2026 22:21:58.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> fucking
+[13Jun2026 22:22:03.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> nigger
+[13Jun2026 22:22:26.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SubtleRotation> i will blow this enderman's uterus istfg
+[13Jun2026 22:25:40.787] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor lost connection: Disconnected
+[13Jun2026 22:25:40.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor left the game
+[13Jun2026 22:26:10.568] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3196ms or 63 ticks behind
+[13Jun2026 22:32:08.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! 21.572387426603655,6.5,265.9521609347248
+[13Jun2026 22:32:24.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Hot Stuff]
+[13Jun2026 22:33:49.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! -19.9447668442358,-4.5,-269.1267867902243
+[13Jun2026 22:33:49.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation moved too quickly! -19.9447668442358,-4.5,-269.1267867902243
+[13Jun2026 22:40:41.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EnzoThor[/[fdfd::1ab2:5141]:59798] logged in with entity id 78466 at (1209.259653256108, 141.0625, 777.7526664123147)
+[13Jun2026 22:40:41.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor joined the game
+[13Jun2026 22:44:18.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro has made the advancement [Sneak 100]
+[13Jun2026 22:56:28.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Getting Started]
+[13Jun2026 22:56:41.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor has made the advancement [Change Sleeping Bag Color]
+[13Jun2026 22:56:56.189] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation lost connection: Disconnected
+[13Jun2026 22:56:56.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation left the game
+[13Jun2026 22:57:11.781] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ccAlessandro lost connection: Disconnected
+[13Jun2026 22:57:11.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ccAlessandro left the game
+[13Jun2026 23:04:13.607] [ForkJoinPool.commonPool-worker-26/WARN] [SkinRestorer/]: Failed to fetch skin 'mojang:SubtleRotation'
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:51) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.lambda$new$0(MojangSkinProvider.java:44) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.players.GameProfileCache.m_10993_(GameProfileCache.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.players.GameProfileCache.m_10996_(GameProfileCache.java:150) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:75) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49) ~[skinrestorer-2.7.0+1.20-forge.jar%23153!/:2.7.0+1.20-forge]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.skinrestorer$fetchSkin(ServerLoginPacketListenerImpl.java:1096) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.md190940$skinrestorer$lambda$waitForSkin$0$2(ServerLoginPacketListenerImpl.java:1080) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[13Jun2026 23:04:13.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SubtleRotation[/26.100.127.38:63162] logged in with entity id 84416 at (223.30000001192093, 195.0, -169.47414925159475)
+[13Jun2026 23:04:13.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation joined the game
+[13Jun2026 23:05:33.985] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SubtleRotation lost connection: Disconnected
+[13Jun2026 23:05:33.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SubtleRotation left the game
+[13Jun2026 23:31:54.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EnzoThor lost connection: Disconnected
+[13Jun2026 23:31:54.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EnzoThor left the game
+[13Jun2026 23:55:24.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[13Jun2026 23:55:24.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[13Jun2026 23:55:26.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Jun2026 23:55:26.667] [Server thread/INFO] [PlasmoVoice/]: UDP server is stopped
+[13Jun2026 23:55:26.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Jun2026 23:55:26.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Jun2026 23:55:26.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Jun2026 23:55:26.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Jun2026 23:55:26.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Jun2026 23:55:26.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Jun2026 23:55:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Jun2026 23:55:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Jun2026 23:55:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Jun2026 23:55:26.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

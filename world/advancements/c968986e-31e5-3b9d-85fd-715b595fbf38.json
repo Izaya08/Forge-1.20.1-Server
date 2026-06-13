@@ -2675,5 +2675,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2026-06-13 21:26:25 +0800"
+    },
+    "done": true
+  },
+  "valhelsia_structures:recipes/building_blocks/acacia_post": {
+    "criteria": {
+      "has_item": "2026-06-13 21:26:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2026-06-13 21:26:25 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
